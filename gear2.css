@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-inter: Inter;
+    --font-khand: Khand;
+  
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+  
+    --color-white: #fff;
+    --color-gainsboro: #d9d9d9;
+    --color-darkslategray-100: #163020;
+  }
+  .blogs{
+    cursor: pointer;
+  }
+  .about{
+    cursor: pointer;
+  }
+  .home{
+    cursor: pointer;
+  }
+  .gear-2-child {
+    position: absolute;
+    top: 1614px;
+    left: 0;
+    background-color: var(--color-darkslategray-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1440px;
+    height: 146px;
+  }
+  .gear-2-item {
+    top: 87px;
+    height: 293px;
+    object-fit: cover;
+  }
+  .gear-2-inner,
+  .gear-2-item,
+  .rectangle-div {
+    position: absolute;
+    left: 0;
+    width: 1440px;
+  }
+  .gear-2-inner {
+    top: 87px;
+    background-color: rgba(22, 48, 32, 0.76);
+    height: 293px;
+  }
+  .rectangle-div {
+    top: 0;
+    background-color: #444;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 134px;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 25px;
+    left: 194px;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+    width: 75px;
+    height: 75px;
+  }
+  .basketball-sport-icon-1 {
+    position: absolute;
+    top: 38px;
+    left: 207px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+  }
+  .jkr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.05em;
+  }
+  .group-child {
+    position: absolute;
+    top: 56px;
+    left: 14px;
+    max-height: 100%;
+    width: 52px;
+    object-fit: cover;
+  }
+  .jkr-parent {
+    position: absolute;
+    top: 26px;
+    left: 286px;
+    width: 66px;
+    height: 73px;
+    font-size: 48px;
+    font-family: var(--font-khand);
+  }
+  .home {
+    left: 0;
+    width: 108px;
+    height: 28px;
+  }
+  .about,
+  .blogs,
+  .home {
+    position: absolute;
+    top: 0;
+    letter-spacing: 0.05em;
+    display: inline-block;
+  }
+  .about {
+    left: 169px;
+    width: 128px;
+    height: 28px;
+  }
+  .blogs {
+    left: 358px;
+    width: 97px;
+  }
+  .home-parent {
+    position: absolute;
+    top: 53px;
+    left: 493px;
+    width: 455px;
+    height: 29px;
+    font-size: var(--font-size-5xl);
+  }
+  .best-basketball-shoes {
+    margin: 0;
+  }
+  .best-basketball-shoes-container {
+    position: absolute;
+    top: 172px;
+    left: calc(50% - 546px);
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+    width: 1120px;
+    text-shadow: 0 4px 9.8px rgba(0, 0, 0, 0.25);
+  }
+  .gear-2-child1 {
+    position: absolute;
+    top: 339px;
+    left: calc(50% - 80px);
+    background-color: var(--color-gainsboro);
+    width: 163px;
+    height: 4px;
+  }
+  .gear-2-child2 {
+    position: absolute;
+    top: 380px;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 1202px;
+  }
+  .rectangle-icon {
+    position: absolute;
+    top: 403px;
+    left: 91px;
+    border-radius: 35px;
+    width: 1258px;
+    height: 1113px;
+    object-fit: cover;
+  }
+  .gear-2-child3,
+  .gear-2-child4 {
+    position: absolute;
+    top: 464px;
+    left: 1022px;
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 285px;
+    height: 173px;
+  }
+  .gear-2-child4 {
+    top: 656px;
+    left: 833px;
+  }
+  .the-gear-blog {
+    position: absolute;
+    top: 1539px;
+    left: calc(50% - 177px);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color-darkslategray-100);
+    display: inline-block;
+    width: 353px;
+  }
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+    width: 75px;
+    height: 75px;
+  }
+  .group-child1,
+  .group-inner {
+    position: absolute;
+    top: 18px;
+    left: 237px;
+    width: 39px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .group-child1 {
+    left: 181px;
+  }
+  .basketball-sport-icon-2,
+  .group-child2 {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+  }
+  .group-child2 {
+    top: 18px;
+    left: 125px;
+    width: 39px;
+    height: 36px;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 1651px;
+    left: 582px;
+    width: 276px;
+    height: 75px;
+  }
+  .we-have-chosen {
+    margin: 0;
+    font-weight: 500;
+  }
+  .we-have-chosen-container {
+    position: absolute;
+    top: 450px;
+    left: 143px;
+    display: inline-block;
+    width: 636px;
+    height: 379px;
+  }
+  .kevin-durants-signature {
+    text-decoration: underline;
+  }
+  .kevin-durants-signature-line {
+    color: inherit;
+  }
+  .the-nike-kd-16-is-very-differe {
+    font-weight: 500;
+  }
+  .nike-kd-16-container {
+    position: absolute;
+    top: 855px;
+    left: 148px;
+    display: inline-block;
+    width: 636px;
+    height: 379px;
+  }
+  .adidas-harden-vol {
+    margin: 0;
+    font-weight: 800;
+  }
+  .adidas-harden-vol-container {
+    position: absolute;
+    top: 1190px;
+    left: 148px;
+    display: inline-block;
+    width: 636px;
+    height: 284px;
+  }
+  .nike-gt-jump {
+    font-weight: 800;
+    font-family: var(--font-inter);
+  }
+  .nike-gt-jump-container {
+    position: absolute;
+    top: 1045px;
+    left: 833px;
+    display: inline-block;
+    width: 499px;
+    height: 356px;
+  }
+  .gear-2-child5,
+  .gear-2-child6 {
+    position: absolute;
+    top: 464px;
+    left: 1020px;
+    width: 287px;
+    height: 177px;
+    object-fit: cover;
+  }
+  .gear-2-child6 {
+    top: 652px;
+    left: 833px;
+    width: 285px;
+    height: 203px;
+  }
+  .gear-2 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1760px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }

@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-khand: Khand;
+
+  --font-size-5xl: 24px;
+
+  --color-gainsboro: #d9d9d9;
+  --color-white: #fff;
+  --color-darkslategray-100: #163020;
+}
+.blogs1{
+  cursor: pointer;
+}
+.about{
+  cursor: pointer;
+}
+#jamill{
+  cursor: pointer;
+}
+.jamill1{
+  cursor: pointer;
+}
+.home-page-child {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 1440px;
+  height: 792px;
+  object-fit: cover;
+}
+.the-gear-blog {
+  position: absolute;
+  top: 279px;
+  left: calc(50% - 519px);
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 0 4px 9.8px rgba(0, 0, 0, 0.25);
+}
+.your-hub-for {
+  position: absolute;
+  top: 452px;
+  left: calc(50% - 498px);
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  width: 760px;
+}
+.home-page-item {
+  position: absolute;
+  top: 506px;
+  left: 1009px;
+  border-radius: 15px;
+  background-color: var(--color-darkslategray-100);
+  width: 160.1px;
+  height: 52px;
+}
+.b {
+  text-transform: capitalize;
+}
+.blogs {
+  position: absolute;
+  top: 520px;
+  left: 1060px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}
+.home-page-inner,
+.rectangle-div {
+  position: absolute;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+}
+.home-page-inner {
+  top: 793px;
+  background-color: var(--color-darkslategray-100);
+  height: 146px;
+}
+.rectangle-div {
+  top: 0;
+  background-color: #444;
+  height: 143px;
+}
+.group-icon {
+  position: absolute;
+  top: 87px;
+  left: 303px;
+  max-height: 100%;
+  width: 52px;
+  object-fit: cover;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 75px;
+  height: 75px;
+}
+.basketball-sport-icon-1 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.jkr {
+  position: absolute;
+  top: 1px;
+  left: 92px;
+  letter-spacing: 0.05em;
+}
+.home {
+  left: 0;
+  width: 108px;
+  height: 28px;
+}
+.about,
+.blogs1,
+.home {
+  position: absolute;
+  top: 0;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.about {
+  left: 169px;
+  width: 128px;
+  height: 28px;
+}
+.blogs1 {
+  left: 358px;
+  width: 97px;
+}
+.home-parent {
+  position: absolute;
+  top: 28px;
+  left: 299px;
+  width: 455px;
+  height: 29px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.ellipse-parent {
+  position: absolute;
+  top: 30px;
+  left: 197px;
+  width: 754px;
+  height: 75px;
+  font-size: 48px;
+  font-family: var(--font-khand);
+}
+.group-child1,
+.group-inner,
+.rectangle-icon {
+  position: absolute;
+  top: 18px;
+  left: 125px;
+  width: 39px;
+  height: 36px;
+  object-fit: cover;
+}
+.group-child1,
+.rectangle-icon {
+  left: 181px;
+}
+.group-child1 {
+  left: 237px;
+}
+.ellipse-group,
+.group-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 276px;
+  height: 75px;
+}
+.group-div {
+  top: 830px;
+  left: 582px;
+}
+.home-page {
+  position: relative;
+  width: 100%;
+  height: 939px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 128px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

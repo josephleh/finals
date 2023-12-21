@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-inter: Inter;
+    --font-khand: Khand;
+  
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+  
+    --color-white: #fff;
+    --color-gainsboro: #d9d9d9;
+    --color-darkslategray-100: #163020;
+  }
+  .blogs{
+    cursor: pointer;
+  }
+  .about{
+    cursor: pointer;
+  }
+  .home{
+    cursor: pointer;
+  }
+  .gear-1-child {
+    position: absolute;
+    top: 1642px;
+    left: 0;
+    background-color: var(--color-darkslategray-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1440px;
+    height: 146px;
+  }
+  .gear-1-item {
+    top: 87px;
+    height: 293px;
+    object-fit: cover;
+  }
+  .gear-1-inner,
+  .gear-1-item,
+  .rectangle-div {
+    position: absolute;
+    left: 0;
+    width: 1440px;
+  }
+  .gear-1-inner {
+    top: 87px;
+    background-color: rgba(22, 48, 32, 0.76);
+    height: 293px;
+  }
+  .rectangle-div {
+    top: 0;
+    background-color: #444;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 134px;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 25px;
+    left: 194px;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+    width: 75px;
+    height: 75px;
+  }
+  .basketball-sport-icon-1 {
+    position: absolute;
+    top: 38px;
+    left: 207px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+  }
+  .jkr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.05em;
+  }
+  .group-child {
+    position: absolute;
+    top: 56px;
+    left: 14px;
+    max-height: 100%;
+    width: 52px;
+    object-fit: cover;
+  }
+  .jkr-parent {
+    position: absolute;
+    top: 26px;
+    left: 286px;
+    width: 66px;
+    height: 73px;
+    font-size: 48px;
+    font-family: var(--font-khand);
+  }
+  .home {
+    left: 0;
+    width: 108px;
+    height: 28px;
+  }
+  .about,
+  .blogs,
+  .home {
+    position: absolute;
+    top: 0;
+    letter-spacing: 0.05em;
+    display: inline-block;
+  }
+  .about {
+    left: 169px;
+    width: 128px;
+    height: 28px;
+  }
+  .blogs {
+    left: 340px;
+    width: 97px;
+  }
+  .home-parent {
+    position: absolute;
+    top: 53px;
+    left: 493px;
+    width: 437px;
+    height: 29px;
+    font-size: var(--font-size-5xl);
+  }
+  .how-to-shoot {
+    margin: 0;
+  }
+  .how-to-shoot-container {
+    position: absolute;
+    top: 172px;
+    left: calc(50% - 546px);
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+    width: 1120px;
+    text-shadow: 0 4px 9.8px rgba(0, 0, 0, 0.25);
+  }
+  .gear-1-child1 {
+    position: absolute;
+    top: 339px;
+    left: calc(50% - 80px);
+    background-color: var(--color-gainsboro);
+    width: 163px;
+    height: 4px;
+  }
+  .gear-1-child2,
+  .gear-1-child3 {
+    position: absolute;
+    top: 380px;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 1262px;
+  }
+  .gear-1-child3 {
+    top: 416px;
+    left: 97px;
+    border-radius: 35px;
+    background-color: var(--color-darkslategray-100);
+    width: 1258px;
+    height: 1117px;
+  }
+  .gear-1-child4,
+  .gear-1-child5 {
+    position: absolute;
+    top: 499px;
+    left: 1023px;
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 285px;
+    height: 173px;
+  }
+  .gear-1-child5 {
+    top: 691px;
+    left: 833px;
+  }
+  .the-gear-blog {
+    position: absolute;
+    top: 1567px;
+    left: calc(50% - 175px);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color-darkslategray-100);
+    display: inline-block;
+    width: 353px;
+  }
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+    width: 75px;
+    height: 75px;
+  }
+  .group-inner,
+  .rectangle-icon {
+    position: absolute;
+    top: 18px;
+    left: 237px;
+    width: 39px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .rectangle-icon {
+    left: 181px;
+  }
+  .basketball-sport-icon-2,
+  .group-child1 {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+  }
+  .group-child1 {
+    top: 18px;
+    left: 125px;
+    width: 39px;
+    height: 36px;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 1679px;
+    left: 582px;
+    width: 276px;
+    height: 75px;
+  }
+  .coaches-need-shooters-container {
+    position: absolute;
+    top: 485px;
+    left: 143px;
+    font-weight: 500;
+    display: inline-block;
+    width: 636px;
+    height: 457px;
+  }
+  .ttpsnbc-campsteachablecom1 {
+    text-decoration: underline;
+  }
+  .ttpsnbc-campsteachablecom {
+    color: inherit;
+  }
+  .tyler-herro-is-container {
+    position: absolute;
+    top: 1006px;
+    left: 143px;
+    font-weight: 500;
+    display: inline-block;
+    width: 1165px;
+    height: 457px;
+  }
+  .gear-1-child6,
+  .gear-1-child7 {
+    position: absolute;
+    top: 495px;
+    left: 1019px;
+    width: 289px;
+    height: 177px;
+    object-fit: cover;
+  }
+  .gear-1-child7 {
+    top: 687px;
+    left: 833px;
+    width: 285px;
+  }
+  .gear-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1788px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
